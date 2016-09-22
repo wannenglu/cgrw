@@ -1,0 +1,158 @@
+@charset "utf-8";
+/* CSS 初始化 */
+body,div,ul,li,dl,dt,dd,h1,h2,h3,form,img,a,span,em,i,input{ margin:0; padding:0;}
+a{
+	text-decoration:none;
+	color:#666666;
+}
+a:hover{
+	color:#ac2117;
+}
+li{
+	list-style:none;
+}
+img{
+	border:0 none;
+}
+body{
+	font-family:"微软雅黑";
+	font-size:14px;
+	color:#333333;
+	background:url(../images/bg.jpg);
+	margin-bottom:186px;
+}
+.clearfix{*zoom:1;}
+.clearfix:after{ content:"."; height:0; clear:both; visibility:hidden; display:block;}
+/* 主要内容 */
+.layer{
+	width:990px;
+	height:auto;
+	margin:0 auto;
+}
+.layout{
+	width:986px;
+	height:auto;
+	background:#fdfaf4;
+	border:#bdab85 1px dashed;
+	margin:0 auto;
+}
+.top{
+	width:100%;
+	height:auto;
+	background:url(../images/top.jpg) no-repeat center top;
+}
+.top-rule{
+	padding:350px 0 88px 82px;
+}
+.top-rule li{
+	line-height:23px;
+	color:#0c0b0a;
+}
+.top-rule span{
+	color:#a10f02;
+}
+.title{
+	height:62px;
+	width:800px;
+	margin:16px 0 0 49px;
+	background:url(../images/tit-bg.jpg) no-repeat;
+	text-indent:-99em;
+	overflow:hidden;
+}
+.main{
+	width:320px;
+	height:auto;
+	margin-left:48px;
+	margin-top:44px;
+	padding-left:616px;
+}
+.layer-one .main{
+	height:454px;
+	background:url(../images/pc.jpg) no-repeat 7px top;
+}
+.layer-two{
+	margin-top:24px;
+}
+.layer-two .main{
+	height:362px;
+	background:url(../images/shop.jpg) no-repeat;
+}
+.layer-two .title{
+	margin:18px 0 0 48px;
+	background-position:0 -62px;
+}
+.layer-three{
+	margin-top:27px;
+}
+.layer-three .main{
+	height:469px;
+	margin-top:33px;
+	background:url(../images/magazine.jpg) no-repeat;
+}
+.layer-three .title{
+	margin:12px 0 0 48px;
+	background-position:0 -124px;
+}
+.main-text dt{
+	line-height:36px;
+}
+.main-text dd{
+	line-height:31px;
+	background:url(../images/img.jpg) no-repeat left 9px;
+	padding-left:13px;
+}
+.main-text dd a{
+	text-decoration:underline;
+}
+.main-btn{
+	display:block;
+	width:166px;
+	height:45px;
+	background:url(../images/btn.jpg) no-repeat;
+	line-height:45px;
+	text-align:center;
+	font-size:16px;
+	color:#FFF;
+	margin-top:101px;
+	text-shadow:1px 1px 3px #333;
+}
+.main-btn:hover{
+	color:#FFF;
+}
+.layer-two .main-text{
+	padding-top:7px;
+}
+.layer-two .main-btn{
+	margin-top:60px;
+}
+.layer-three .main-text dt{
+	line-height:42px;
+}
+.layer-three .main-text dd{
+	line-height:20px;
+	width:270px;
+	background:url(../images/img.jpg) no-repeat left 5px;
+}
+.layer-three .main-btn{
+	margin-top:90px;
+}
+.layer-four{
+	margin-top:27px;
+}
+.layer-four .title{
+	background-position:0 -186px;
+	margin:11px 0 0 48px;
+}
+.mian-win{
+	margin:6px 0 0 67px;
+	padding-bottom:20px;
+}
+.mian-win li{
+	line-height:28px;
+	color:#666;
+	background:url(../images/sq.png) no-repeat left 10px;
+	padding-left:14px;
+}
+.mian-win span{
+	color:#bf2014;
+}
